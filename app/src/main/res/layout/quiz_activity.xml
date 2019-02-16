@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginVertical="50dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_quizNoActivity"
+            android:text="Activity No : "
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_qustionNumberAct"
+            android:textSize="25sp"
+            android:text="Question No."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_qustionActivity"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_aActivity"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:text="A. choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_bActivity"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="B. choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_cActivity"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="C. choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_dActivity"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="D. choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editText_chooseAnswer"
+            android:hint="Choose the correct answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/button_Submit"
+            android:layout_gravity="right"
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

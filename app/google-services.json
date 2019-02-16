@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "394828743630",
+    "firebase_url": "https://motivationalmathapplication.firebaseio.com",
+    "project_id": "motivationalmathapplication",
+    "storage_bucket": "motivationalmathapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394828743630:android:f5d66463457e0919",
+        "android_client_info": {
+          "package_name": "com.softwaresolution.ilearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394828743630-hse0vjh7vepq79jeq41kjevv8ku7o11m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwaresolution.ilearn",
+            "certificate_hash": "362e2a89977838716d1d4d5240937db3c056c8bc"
+          }
+        },
+        {
+          "client_id": "394828743630-ru22fbt3feagubejr9jt2qv1k2a6jkid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqft6LtJlQLngBciIPsg9UQv_diqjG7RA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394828743630-ru22fbt3feagubejr9jt2qv1k2a6jkid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394828743630:android:4f5c0d1e7db4975b",
+        "android_client_info": {
+          "package_name": "com.softwaresolution.motivationalmathapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394828743630-6c149ehfpv8uktfpfreva62h6gp4snj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwaresolution.motivationalmathapplication",
+            "certificate_hash": "362e2a89977838716d1d4d5240937db3c056c8bc"
+          }
+        },
+        {
+          "client_id": "394828743630-ru22fbt3feagubejr9jt2qv1k2a6jkid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqft6LtJlQLngBciIPsg9UQv_diqjG7RA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394828743630-ru22fbt3feagubejr9jt2qv1k2a6jkid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

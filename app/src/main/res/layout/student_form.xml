@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StudentLoginForm">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <EditText
+            android:hint="Student username"
+            android:id="@+id/edittext_StudentUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:id="@+id/edittext_StudentPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Login"
+            android:id="@+id/button_StudentLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/linearlayout_studentSignup"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_marginHorizontal="25dp"
+                android:layout_gravity="center"
+                android:text="Sign up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
